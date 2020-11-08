@@ -1,4 +1,5 @@
-def roll_call_dwarves
+def roll_call_dwarves(roll)
+  roll.sort
  
 end
 

@@ -26,6 +26,6 @@ end
 def find_the_cheese(cheese)
 
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese.first("cheddar")
+  cheese.first("cheddar").
   
 end

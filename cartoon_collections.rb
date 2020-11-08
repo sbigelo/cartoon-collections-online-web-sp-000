@@ -5,7 +5,7 @@ def roll_call_dwarves(roll)
 end
 
 def summon_captain_planet(plan)
- plan.map 
+ plan.map |key| 
 end
 
 def long_planeteer_calls

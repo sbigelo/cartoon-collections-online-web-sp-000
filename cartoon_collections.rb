@@ -1,5 +1,5 @@
 def roll_call_dwarves(roll)
-  puts "1. #{roll.sort}"
+  roll.each_with_index 
  
 end
 

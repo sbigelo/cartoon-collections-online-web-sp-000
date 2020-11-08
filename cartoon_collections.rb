@@ -18,10 +18,12 @@ def summon_captain_planet(plan)
 end
 
 def long_planeteer_calls(long)
+  
   long.each_with_index do |key, value|
     
 
   end
+  longer
 end
 
 def find_the_cheese

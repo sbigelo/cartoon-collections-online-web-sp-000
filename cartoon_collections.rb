@@ -19,7 +19,7 @@ end
 
 def long_planeteer_calls(long)
   
-  longlength < 4
+  long.any? {|key| key.length > 4}
  
 end
 

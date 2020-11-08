@@ -19,7 +19,7 @@ end
 
 def long_planeteer_calls(long)
   long.each_with_index do |key, value|
-    binding.pry
+    
   end
 end
 

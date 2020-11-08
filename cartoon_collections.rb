@@ -1,3 +1,6 @@
+require 'pry'
+
+
 def roll_call_dwarves(roll)
   roll.each_with_index do |key, index|
     puts "#{index + 1}. #{key}"
@@ -15,7 +18,9 @@ def summon_captain_planet(plan)
 end
 
 def long_planeteer_calls(long)
-  long.map {
+  long.each_with_index do |key, value|
+    binding.pry
+  end
 end
 
 def find_the_cheese

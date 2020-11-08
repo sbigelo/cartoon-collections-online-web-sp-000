@@ -5,7 +5,13 @@ def roll_call_dwarves(roll)
 end
 
 def summon_captain_planet(plan)
- plan.map {|key| puts "#{key.capitalize}!"}
+ array = []
+ 
+ plan.each do |key| 
+   array << "#{key.capitalize}!"
+ 
+ end
+ array
 end
 
 def long_planeteer_calls

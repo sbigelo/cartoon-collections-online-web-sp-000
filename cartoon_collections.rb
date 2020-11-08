@@ -19,7 +19,7 @@ end
 
 def long_planeteer_calls(long)
   
-  long.length < 4
+  long.map.length < 4
  
 end
 

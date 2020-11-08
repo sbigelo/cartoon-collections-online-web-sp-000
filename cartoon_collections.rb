@@ -19,11 +19,10 @@ end
 
 def long_planeteer_calls(long)
   
-  long.each_with_index do |key, value|
-    
+ if long.count > 4
+    return true
 
   end
-  longer
 end
 
 def find_the_cheese
